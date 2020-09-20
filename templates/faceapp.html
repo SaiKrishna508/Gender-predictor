@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+
+    <div class="container">
+        <br>
+        <h3 class="content" style="color: #198b90;">
+            Gender predictor
+        </h3>
+        <br>
+        <p class="content"> 
+            Below is the architecture as explained earlier, please try it now.
+        </p>
+        <br>
+        <img src="{{url_for('static',filename='images/002.png')}}" alt="genderapp" width="600" height="180">
+        <br>
+        <div align="center">
+            <a href="{{url_for('gender')}}" class="btn btn-outline-primary">Try it now</a>
+
+        </div>
+    </div>
+
+{% endblock  %}
