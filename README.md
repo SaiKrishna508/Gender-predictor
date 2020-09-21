@@ -26,3 +26,5 @@ This project has six major parts :
 2. By default, flask will run on port 5000. Navigate to URL http://127.0.0.1:5000/
 
 3. Click on FaceApp, try it by uploading image and predict. Demo is uploaded for your reference.
+
+Please give a ⭐ if you like. Thank you !!!
